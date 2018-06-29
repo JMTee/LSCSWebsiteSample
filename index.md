@@ -9,7 +9,7 @@ layout: main
 
 
  {% for post in site.posts %}
- <a href="{{post.url}}">
+ <a href="/LSCSWebsiteSample{{post.url}}">
   {{ post.title }}
  </a>
  {% endfor %}
